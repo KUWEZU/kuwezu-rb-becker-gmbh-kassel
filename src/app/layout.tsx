@@ -11,11 +11,11 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
-  description: "Professioneller Garten- und Landschaftsbau in Kassel. Von Gartengestaltung bis Pflege – alles aus einer Hand. Jetzt unverbindlich beraten lassen!",
+  title: "RB- BECKER Gmbh | Garten / Landschaftsbau in Kassel",
+  description: "RB- BECKER Gmbh in Kassel — Ihr Experte für Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
   openGraph: {
-    title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
-    description: "Professioneller Garten- und Landschaftsbau in Kassel. Von Gartengestaltung bis Pflege – alles aus einer Hand. Jetzt unverbindlich beraten lassen!",
+    title: "RB- BECKER Gmbh | Garten / Landschaftsbau in Kassel",
+    description: "RB- BECKER Gmbh in Kassel — Ihr Experte für Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
     type: "website",
     locale: "de_DE",
   },

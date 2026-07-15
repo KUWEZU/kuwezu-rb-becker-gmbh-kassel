@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-15T10:43:25.294Z
+ * Erstellt: 2026-07-15T16:23:48.979Z
  * Kundennummer: 238
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -11,7 +11,7 @@ export const client = {
   name: "RB- BECKER Gmbh",
   branche: "Garten / Landschaftsbau",
   ort: "Kassel",
-  slogan: "Garten- und Landschaftsbau",
+  slogan: "professionell & zuverlässig",
   adresse: "Hegelsbergstraße 21, 34127 Kassel",
   maps_url: "https://maps.google.com/?cid=5602050310434734953&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   telefon: "0561 49172551",
@@ -30,9 +30,9 @@ export const client = {
   hero: {
     bild: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1600",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
-    ueberschrift: "Ihr Garten- und Landschaftsbau in Kassel",
-    ueberschriftHighlight: "Garten- und Landschaftsbau",
-    untertext: "Von der Planung bis zur Pflege – wir gestalten Ihre Außenanlagen professionell und zuverlässig. Ihr Partner in Kassel.",
+    ueberschrift: "Garten / Landschaftsbau — professionell & zuverlässig",
+    ueberschriftHighlight: "professionell & zuverlässig",
+    untertext: "Ihr Partner für alle Belange rund um Garten / Landschaftsbau in Kassel und Umgebung.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -40,10 +40,10 @@ export const client = {
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
     bild: "https://r2.kuwezu.de/kunden/238/ueber-uns.webp",
-    ueberschrift: "RB-BECKER – Ihr Landschaftsbau-Profi aus Kassel",
-    text1: "Die RB-BECKER GmbH steht für professionellen Garten- und Landschaftsbau in Kassel und Umgebung. Mit langjähriger Erfahrung und einem eingespielten Team realisieren wir Projekte jeder Größenordnung – von der Gartengestaltung über Pflasterarbeiten bis zur dauerhaften Grünpflege. Qualität und Termintreue sind für uns selbstverständlich.",
-    text2: "Wir arbeiten Hand in Hand mit unseren Kunden und setzen deren Wünsche fachgerecht um. Dabei legen wir Wert auf saubere Ausführung, ehrliche Beratung und faire Preise. Verlassen Sie sich auf unser Handwerk.",
-    tags: ["Erfahrenes Team", "Zuverlässige Ausführung", "Persönliche Beratung", "Faire Preise"],
+    ueberschrift: "RB- BECKER Gmbh — Ihr Partner in Kassel",
+    text1: "Als erfahrener Garten / Landschaftsbau-Betrieb in Kassel bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
+    text2: "Wir setzen auf höchste Qualität, transparente Preise und persönlichen Service — damit Sie rundum zufrieden sind.",
+    tags: ["Qualität", "Zuverlässigkeit", "Faire Preise", "Erfahrung"],
     stats: [
       { value: "36+", label: "Jahre Erfahrung" },
       { value: "12", label: "Fachkräfte" },
@@ -56,15 +56,15 @@ export const client = {
       slug: "autoglas",
       title: "Autoglas",
       bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
-      description: "Professionelle Autoglas-Reparatur und -Austausch für alle Fahrzeugtypen. Schnell, sauber und zu fairen Konditionen – damit Sie sicher weiterfahren können.",
-      highlights: ["Steinschlag-Reparatur", "Scheibenaustausch", "Schnelle Terminvergabe"],
+      description: "Professionelle Autoglas — schnell, zuverlässig und zu fairen Preisen.",
+      highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     },
     {
       slug: "bremsen",
       title: "Bremsen",
       bild: "https://r2.kuwezu.de/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
-      description: "Kompetenter Bremsendienst für Ihre Sicherheit im Straßenverkehr. Wir prüfen, warten und tauschen Bremsanlagen fachgerecht aus.",
-      highlights: ["Bremsbeläge & -scheiben", "Bremsflüssigkeitswechsel", "Sicherheitsprüfung"],
+      description: "Professionelle Bremsen — schnell, zuverlässig und zu fairen Preisen.",
+      highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     }
   ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
 
@@ -84,6 +84,9 @@ export const client = {
 
   // ── Öffnungszeiten & Services ──────────────────────────────────────────────
   tuev_termine: false as boolean,
+  // Wiederkehrende TÜV-/HU-Termine — leer/null: kein Infoblock auf der Seite
+  tuev_slots: null as { day: string; from: string; to: string }[] | null,
+  tuev_hinweis: null as string | null,
   oeffnungszeiten: {
     mo_fr: "09:00 – 18:00" as string,
     sa:    "09:00 – 14:00" as string,
