@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-15T10:40:12.556Z
+ * Erstellt: 2026-07-15T10:43:25.294Z
  * Kundennummer: 238
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -32,7 +32,7 @@ export const client = {
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Ihr Garten- und Landschaftsbau in Kassel",
     ueberschriftHighlight: "Garten- und Landschaftsbau",
-    untertext: "Von der Planung bis zur Pflege – wir gestalten Ihren Außenbereich mit Fachwissen und Leidenschaft. Professionell und zuverlässig.",
+    untertext: "Von der Planung bis zur Pflege – wir gestalten Ihre Außenanlagen professionell und zuverlässig. Ihr Partner in Kassel.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -40,10 +40,10 @@ export const client = {
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
     bild: "https://r2.kuwezu.de/kunden/238/ueber-uns.webp",
-    ueberschrift: "RB-BECKER – Ihr Partner für Außenanlagen in Kassel",
-    text1: "Die RB-BECKER GmbH ist Ihr erfahrener Partner für professionellen Garten- und Landschaftsbau in Kassel und Umgebung. Wir verwirklichen private und gewerbliche Projekte – von der ersten Beratung über die fachgerechte Ausführung bis zur langfristigen Pflege Ihrer Außenanlagen.",
-    text2: "Qualität und Kundenzufriedenheit stehen bei uns an erster Stelle. Unser Team arbeitet gewissenhaft, termintreu und mit dem Anspruch, Ihre Wünsche präzise umzusetzen. Auf uns können Sie sich verlassen.",
-    tags: ["Erfahrenes Team", "Qualitätsarbeit", "Termintreu", "Faire Preise"],
+    ueberschrift: "RB-BECKER – Ihr Landschaftsbau-Profi aus Kassel",
+    text1: "Die RB-BECKER GmbH steht für professionellen Garten- und Landschaftsbau in Kassel und Umgebung. Mit langjähriger Erfahrung und einem eingespielten Team realisieren wir Projekte jeder Größenordnung – von der Gartengestaltung über Pflasterarbeiten bis zur dauerhaften Grünpflege. Qualität und Termintreue sind für uns selbstverständlich.",
+    text2: "Wir arbeiten Hand in Hand mit unseren Kunden und setzen deren Wünsche fachgerecht um. Dabei legen wir Wert auf saubere Ausführung, ehrliche Beratung und faire Preise. Verlassen Sie sich auf unser Handwerk.",
+    tags: ["Erfahrenes Team", "Zuverlässige Ausführung", "Persönliche Beratung", "Faire Preise"],
     stats: [
       { value: "36+", label: "Jahre Erfahrung" },
       { value: "12", label: "Fachkräfte" },
@@ -56,22 +56,15 @@ export const client = {
       slug: "autoglas",
       title: "Autoglas",
       bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
-      description: "Professionelle Autoglasreparatur und -austausch für alle Fahrzeugtypen. Wir kümmern uns um Steinschläge, Risse und komplette Scheibenwechsel – schnell und fachgerecht.",
-      highlights: ["Steinschlagreparatur", "Scheibenaustausch", "Versicherungsabwicklung"],
+      description: "Professionelle Autoglas-Reparatur und -Austausch für alle Fahrzeugtypen. Schnell, sauber und zu fairen Konditionen – damit Sie sicher weiterfahren können.",
+      highlights: ["Steinschlag-Reparatur", "Scheibenaustausch", "Schnelle Terminvergabe"],
     },
     {
       slug: "bremsen",
       title: "Bremsen",
       bild: "https://r2.kuwezu.de/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
-      description: "Rundum-Service für Ihre Fahrzeugbremsen. Von der Inspektion über den Austausch von Bremsbelägen und -scheiben bis zur Wartung – für Ihre Sicherheit im Straßenverkehr.",
-      highlights: ["Bremseninspektion", "Beläge & Scheiben", "Alle Fahrzeugmarken"],
-    },
-    {
-      slug: "consulting",
-      title: "Consulting",
-      bild: "https://r2.kuwezu.de/kunden/238/consulting-1784111997267.png",
-      description: "Fachkundige Beratung rund um Garten- und Landschaftsbauprojekte. Wir entwickeln mit Ihnen Konzepte, planen die Umsetzung und begleiten Sie von der Idee bis zum fertigen Projekt.",
-      highlights: ["Projektplanung", "Konzeptentwicklung", "Individuelle Lösungen"],
+      description: "Kompetenter Bremsendienst für Ihre Sicherheit im Straßenverkehr. Wir prüfen, warten und tauschen Bremsanlagen fachgerecht aus.",
+      highlights: ["Bremsbeläge & -scheiben", "Bremsflüssigkeitswechsel", "Sicherheitsprüfung"],
     }
   ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
 
@@ -85,6 +78,8 @@ export const client = {
 
     ] as { title: string; type: string; experience: string }[],
     benefits: null as { title: string; text: string }[] | null,
+    // null = In-Page-Anker #kontakt; http(s)-URL öffnet im neuen Tab
+    buttonUrl: null as string | null,
   },
 
   // ── Öffnungszeiten & Services ──────────────────────────────────────────────

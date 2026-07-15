@@ -12,19 +12,16 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
-  description: "Professioneller Garten- und Landschaftsbau in Kassel. RB-BECKER GmbH: Planung, Ausführung & Pflege aus einer Hand. Jetzt unverbindlich beraten lassen!",
+  description: "Professioneller Garten- und Landschaftsbau in Kassel. Von Gartengestaltung bis Pflege – alles aus einer Hand. Jetzt unverbindlich beraten lassen!",
   openGraph: {
     title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
-    description: "Professioneller Garten- und Landschaftsbau in Kassel. RB-BECKER GmbH: Planung, Ausführung & Pflege aus einer Hand. Jetzt unverbindlich beraten lassen!",
+    description: "Professioneller Garten- und Landschaftsbau in Kassel. Von Gartengestaltung bis Pflege – alles aus einer Hand. Jetzt unverbindlich beraten lassen!",
     type: "website",
     locale: "de_DE",
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
-      { url: "/logo.png", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    icon: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
+    apple: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
   },
 };
 
