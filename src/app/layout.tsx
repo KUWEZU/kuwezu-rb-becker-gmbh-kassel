@@ -11,13 +11,20 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "KUWEZU | Professionelle Kfz-Werkstatt",
-  description: "Ihre Kfz-Werkstatt für alle Leistungen. Qualität und Transparenz.",
+  title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
+  description: "Professioneller Garten- und Landschaftsbau in Kassel. RB-BECKER GmbH: Planung, Ausführung & Pflege aus einer Hand. Jetzt unverbindlich beraten lassen!",
   openGraph: {
-    title: "KUWEZU | Professionelle Kfz-Werkstatt",
-    description: "Ihre zuverlässige Kfz-Werkstatt.",
+    title: "Garten- & Landschaftsbau Kassel | RB-BECKER GmbH",
+    description: "Professioneller Garten- und Landschaftsbau in Kassel. RB-BECKER GmbH: Planung, Ausführung & Pflege aus einer Hand. Jetzt unverbindlich beraten lassen!",
     type: "website",
     locale: "de_DE",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
 };
 

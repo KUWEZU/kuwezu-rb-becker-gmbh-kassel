@@ -1,1 +1,39 @@
-{"averageRating":null,"totalCount":0,"source":"Google","fetchedAt":"","reviews":[]}
+{
+  "averageRating": 4,
+  "totalCount": 849,
+  "source": "Google",
+  "fetchedAt": "2026-07-15T10:36:29.634Z",
+  "reviews": [
+    {
+      "author": "Daniela Bremerhaven",
+      "rating": 4,
+      "text": "Alles was man braucht und nicht braucht. So wie zu erwarten. Großer Laden das ist schon was für einen längeren Spaziergang 😉",
+      "date": "vor einem Monat"
+    },
+    {
+      "author": "B.P",
+      "rating": 4,
+      "text": "Schnäppchenmarkt. Ich gehe rein und möchte 2 Teile kaufen und gehe mit 5 Teilen wieder raus. Schön, günstig, gut sortiert. Nette Möbel im oberen Bereich",
+      "date": "vor 5 Monaten"
+    },
+    {
+      "author": "Frank",
+      "rating": 4,
+      "text": "Schöner Markt mit Restposten Atmosphäre. Ich habe mir mehr 1€ Artikel gewünscht. Einige  Produkte so teuer wie in normalen Läden.",
+      "date": "vor 10 Monaten"
+    },
+    {
+      "author": "Dieter Dixius",
+      "rating": 5,
+      "text": "Ich bin gerne dort, günstige Preise gute Auswahl, nette Bedienung...😊👋🏼",
+      "date": "vor 7 Monaten"
+    },
+    {
+      "author": "Michael Thielen",
+      "rating": 5,
+      "text": "Sehr freundliche Mitarbeiter\nKann man nur empfehlen\nKomme gerne wieder",
+      "date": "vor 3 Jahren"
+    }
+  ],
+  "_debug": "gmb-import"
+}
