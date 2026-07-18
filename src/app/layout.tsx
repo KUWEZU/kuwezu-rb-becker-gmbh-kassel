@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "RB- BECKER Gmbh | Garten / Landschaftsbau in Kassel",
+    description: "RB- BECKER Gmbh in Kassel — Ihr Experte für Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
+  },
   icons: {
     icon: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
     apple: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
