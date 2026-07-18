@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-18T19:13:02.225Z
+ * Erstellt: 2026-07-18T22:22:15.455Z
  * Kundennummer: 238
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -28,7 +28,7 @@ export const client = {
   },
   // ── Hero ───────────────────────────────────────────────────────────────────
   hero: {
-    bild: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    bild: "https://r2.kuwezu.de/kunden/238/stock-1naicfg.jpg",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Garten / Landschaftsbau — professionell & zuverlässig",
     ueberschriftHighlight: "professionell & zuverlässig",
