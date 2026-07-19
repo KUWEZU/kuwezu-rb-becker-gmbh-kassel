@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-19T15:43:59.622Z
+ * Erstellt: 2026-07-19T17:35:40.883Z
  * Kundennummer: 238
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -17,8 +17,8 @@ export const client = {
   telefon: "0561 49172551",
   email: "",
   website: "",
-  logo: "https://r2.kuwezu.de/kunden/238/logo.png",
-  standort_bild: "https://r2.kuwezu.de/kunden/238/standort.webp",
+  logo: "https://r2.kuwezu.de/cdn-cgi/image/width=320,fit=contain,quality=78,format=auto/kunden/238/logo.png",
+  standort_bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/238/standort.webp",
 
   // ── Branding ───────────────────────────────────────────────────────────────
   farben: {
@@ -28,7 +28,9 @@ export const client = {
   },
   // ── Hero ───────────────────────────────────────────────────────────────────
   hero: {
-    bild: "https://r2.kuwezu.de/kunden/238/stock-1naicfg.jpg",
+    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1600,fit=cover,quality=78,format=auto/kunden/238/stock-1naicfg.jpg",
+    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=768,fit=cover,quality=78,format=auto/kunden/238/stock-1naicfg.jpg 768w, https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/238/stock-1naicfg.jpg 1280w, https://r2.kuwezu.de/cdn-cgi/image/width=1920,fit=cover,quality=78,format=auto/kunden/238/stock-1naicfg.jpg 1920w",
+    bildSizes: "100vw",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Garten / Landschaftsbau — professionell & zuverlässig",
     ueberschriftHighlight: "professionell & zuverlässig",
@@ -39,7 +41,9 @@ export const client = {
 
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
-    bild: "https://r2.kuwezu.de/kunden/238/ueber-uns.webp",
+    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/238/ueber-uns.webp",
+    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/238/ueber-uns.webp 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/238/ueber-uns.webp 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/238/ueber-uns.webp 1536w",
+    bildSizes: "(max-width: 1024px) 100vw, 50vw",
     ueberschrift: "RB- BECKER Gmbh — Ihr Partner in Kassel",
     text1: "Als erfahrener Garten / Landschaftsbau-Betrieb in Kassel bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
     text2: "Wir setzen auf höchste Qualität, transparente Preise und persönlichen Service — damit Sie rundum zufrieden sind.",
@@ -55,18 +59,20 @@ export const client = {
     {
       slug: "autoglas",
       title: "Autoglas",
-      bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp 800w",
       description: "Professionelle Autoglas — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     },
     {
       slug: "bremsen",
       title: "Bremsen",
-      bild: "https://r2.kuwezu.de/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 800w",
       description: "Professionelle Bremsen — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     }
-  ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
+  ] as { slug: string; title: string; bild: string; bildSrcset: string; description: string; highlights: string[] }[],
 
   // ── Karriere ───────────────────────────────────────────────────────────────
   // Kundenpflegbar (Stammdaten) bzw. künftig autoservice.jobs-Feed — keine

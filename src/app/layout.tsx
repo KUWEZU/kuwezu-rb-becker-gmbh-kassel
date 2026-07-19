@@ -34,8 +34,11 @@ export const metadata: Metadata = {
     description: "RB- BECKER Gmbh in Kassel — Ihr Experte für Autoglas, Bremsen und mehr. Jetzt Termin vereinbaren!",
   },
   icons: {
-    icon: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
-    apple: [{ url: "https://r2.kuwezu.de/kunden/238/logo.png" }],
+    icon: [
+      { url: "https://r2.kuwezu.de/cdn-cgi/image/width=32,height=32,fit=pad,background=%23ffffff,format=png/kunden/238/logo.png", sizes: "32x32", type: "image/png" },
+      { url: "https://r2.kuwezu.de/kunden/238/logo.png" },
+    ],
+    apple: [{ url: "https://r2.kuwezu.de/cdn-cgi/image/width=180,height=180,fit=pad,background=%23ffffff,format=png/kunden/238/logo.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
