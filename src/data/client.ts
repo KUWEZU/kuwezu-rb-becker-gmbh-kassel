@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-18T22:22:15.455Z
+ * Erstellt: 2026-07-19T15:43:59.622Z
  * Kundennummer: 238
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
